@@ -9,7 +9,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>Loja e Kapuçave 🎩</title>
-<link rel="manifest" href="manifest.json?v=6">
+<link rel="manifest" href="manifest.json?v=7">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
 :root{--bg:#2d1506;--red:#d62828;--gold:#c9922a;--wheat:#f0dba0;--dark:#1a0a03;--marble:#7fd4e0;}
@@ -405,6 +405,8 @@ html[data-theme]{--marble:var(--accent);}
 /* Overlays bleiben in jedem Theme dunkel mit hellem Text */
 #tov,#golden-ov,#game-modal{--wheat:#f0dba0;--surface:rgba(0,0,0,.5);--surface-bd:rgba(201,146,42,.32);}
 #menu .minfo{display:none !important;}
+#menu .history-card,#menu .region-info{display:none !important;}
+#menu .mode-tabs{width:100%;max-width:420px;box-sizing:border-box;}#menu .mode-tab{flex:1 1 0;min-width:0;padding-left:4px;padding-right:4px;text-align:center;white-space:nowrap;font-size:.72rem;}
 </style>
 </head>
 <body>
@@ -2085,7 +2087,7 @@ function showScreen(id){
 function handleNav(){
   var nb = document.getElementById('nav-btn');
   if(nb && nb._inGame){ sClick(); goMenu(); }
-  else window.location.href='index.html?v=6';
+  else window.location.href='index.html?v=7';
 }
 function goMenu(){ hideResultModal(); showScreen('menu'); G.phase=''; }
 function playAgain(){
