@@ -1,0 +1,587 @@
+<!DOCTYPE html><html lang="sq" data-theme="smerald"><head><script>(function(){try{var u=new URL(location.href);if(!u.searchParams.has("t")){u.searchParams.set("t",Date.now());location.replace(u.href);}}catch(e){}})();</script><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
+  <link rel="apple-touch-icon" href="data:image/png;base64,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['cite: 1']
+
+  <title>Cicmic</title>
+  <style>
+    :root[data-theme="smerald"] {
+      --bg: #0b1a15;
+      --panel: #122b22;
+      --primary: #10b981;
+      --primary-hover: #059669;
+      --text: #ecfdf5;
+      --text-muted: #6ee7b7;
+      --border: #047857;
+      --cell-bg: #143529;
+      --red: #ef4444;
+      --black: #1f2937;
+    }
+    :root[data-theme="ruby"] {
+      --bg: #1a0b0b;
+      --panel: #2b1212;
+      --primary: #ef4444;
+      --primary-hover: #dc2626;
+      --text: #fef2f2;
+      --text-muted: #fca5a5;
+      --border: #b91c1c;
+      --cell-bg: #351414;
+      --red: #f43f5e;
+      --black: #27272a;
+    }
+    :root[data-theme="classic"] {
+      --bg: #1c1917;
+      --panel: #292524;
+      --primary: #d97706;
+      --primary-hover: #b45309;
+      --text: #fafaf9;
+      --text-muted: #f59e0b;
+      --border: #78350f;
+      --cell-bg: #44403c;
+      --red: #e11d48;
+      --black: #18181b;
+    }
+    * { box-sizing: border-box; margin:0; padding:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+    body { background: var(--bg); color: var(--text); min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 10px; transition: background 0.3s, color 0.3s; }
+    
+    header { width: 100%; max-width: 500px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; padding: 5px; }
+    h1 { font-size: 24px; font-weight: 800; letter-spacing: 1px; color: var(--primary); }
+    
+    .theme-panel { display: flex; gap: 4px; }
+    .theme-sw { width: 24px; height: 24px; border-radius: 50%; border: 2px solid transparent; cursor: pointer; position: relative; }
+    .theme-sw.sel { border-color: var(--text); transform: scale(1.1); }
+    .theme-sw[data-t="smerald"] { background: #10b981; }
+    .theme-sw[data-t="ruby"] { background: #ef4444; }
+    .theme-sw[data-t="classic"] { background: #d97706; }
+
+    #menu { width: 100%; max-width: 420px; background: var(--panel); border: 2px solid var(--border); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.5); margin-top: 10px; }
+    .mode-tabs { display: flex; background: rgba(0,0,0,0.2); pading: 4px; border-radius: 8px; border: 1px solid var(--border); }
+    .tab { flex: 1; text-align: center; padding: 8px; cursor: pointer; font-weight: bold; font-size: 14px; border-radius: 6px; border: none; background: transparent; color: var(--text-muted); }
+    .tab.active { background: var(--primary); color: var(--text); }
+    
+    .input-grp { display: flex; flex-direction: column; gap: 6px; }
+    label { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); font-weight: bold; }
+    input[type="text"] { background: rgba(0,0,0,0.3); border: 1px solid var(--border); border-radius: 8px; padding: 10px; color: var(--text); font-size: 16px; width: 100%; text-align: center; }
+    input[type="text"]:focus { outline: 2px solid var(--primary); }
+
+    button.btn { background: var(--primary); color: var(--text); border: none; border-radius: 8px; padding: 12px; font-size: 16px; font-weight: bold; cursor: pointer; transition: background 0.2s, transform 0.1s; width: 100%; box-shadow: 0 4px 6px rgba(0,0,0,0.2); }
+    button.btn:hover { background: var(--primary-hover); }
+    button.btn:active { transform: scale(0.98); }
+    button.btn-sec { background: transparent; border: 2px solid var(--border); color: var(--text); }
+    button.btn-sec:hover { background: rgba(255,255,255,0.05); }
+
+    #game-container { display: none; width: 100%; max-width: 450px; text-align: center; }
+    .status-bar { background: var(--panel); border: 2px solid var(--border); border-radius: 12px; padding: 10px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; font-weight: bold; font-size: 14px; }
+    .turn-ind { display: flex; align-items: center; gap: 8px; }
+    .turn-dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+    .turn-dot.p1 { background: var(--red); }
+    .turn-dot.p2 { background: var(--black); border: 1px solid #fff; }
+
+    #board { display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); gap: 10px; background: var(--border); padding: 10px; border-radius: 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.4); aspect-ratio: 1; margin-bottom: 15px; position: relative; }
+    .cell { background: var(--cell-bg); border-radius: 12px; display: flex; justify-content: center; align-items: center; cursor: pointer; transition: background 0.2s; position: relative; }
+    .cell:hover { background: rgba(255,255,255,0.03); }
+    .cell.src-sel { background: rgba(16,185,129,0.2); border: 2px dashed var(--primary); }
+    
+    .piece { width: 75%; height: 75%; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.4); transition: transform 0.2s, opacity 0.2s; cursor: pointer; position: relative; }
+    .piece.p1 { background: var(--red); }
+    .piece.p2 { background: var(--black); border: 2px solid rgba(255,255,255,0.2); }
+    .piece.moving { opacity: 0.5; transform: scale(0.9); }
+    
+    .piece::after { content: ''; position: absolute; top: 10%; left: 10%; width: 30%; height: 30%; background: rgba(255,255,255,0.25); border-radius: 50%; }
+
+    .bottom-bar { display: flex; gap: 10px; width: 100%; margin-top: 5px; }
+
+    .history-card, .rules-box { background: rgba(0,0,0,0.15); border: 1px solid var(--border); border-radius: 10px; padding: 12px; font-size: 13px; line-height: 1.5; color: var(--text-muted); text-align: left; }
+    .history-card h3, .rules-box h3 { color: var(--primary); margin-bottom: 6px; font-size: 14px; font-weight: bold; }
+    .rules-box ol { margin-left: 18px; }
+
+    .info-modal { position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.7); display:none; justify-content:center; align-items:center; z-index:100; padding:15px; }
+    .info-modal.show { display: flex; }
+    .info-card { background: var(--panel); border: 2px solid var(--border); border-radius: 16px; padding: 20px; width: 100%; max-width: 400px; display: flex; flex-direction: column; gap: 15px; max-height: 85vh; overflow-y: auto; position: relative; }
+    .info-close { background: var(--primary); color: var(--text); border:none; padding:8px; border-radius:6px; font-weight:bold; cursor:pointer; align-self: flex-end; }
+
+    @media (max-height: 650px) {
+      body { padding: 4px; }
+      h1 { font-size: 20px; }
+      #menu { gap: 10px; padding: 12px; }
+      #board { gap: 6px; padding: 6px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CICMIC</h1>
+    <div class="theme-panel">
+      <div class="theme-sw" data-t="smerald" onclick="applyTheme('smerald')"></div>
+      <div class="theme-sw" data-t="ruby" onclick="applyTheme('ruby')"></div>
+      <div class="theme-sw" data-t="classic" onclick="applyTheme('classic')"></div>
+    </div>
+  </header>
+
+  <div id="menu">
+    <div class="mode-tabs">
+      <button class="tab" id="tab-local" onclick="setMode('local')">2 Lojtarë (Lokal)</button>
+      <button class="tab active" id="tab-online" onclick="setMode('online')">Online</button>
+    </div>
+
+    <div class="input-grp">
+      <label id="lbl-name">Emri i Lojtarit / Name</label>
+      <input type="text" id="player-name-input" placeholder="Shkruaj emrin tënd...">
+    </div>
+
+    <div id="online-panel" style="display: flex; flex-direction: column; gap: 12px;">
+      <button class="btn" id="create-room-btn">Krijo dhomë (Create Room)</button>
+      <div style="display:flex; align-items:center; gap:10px; margin: 4px 0;">
+        <div style="flex:1; height:1px; background:var(--border);"></div>
+        <span style="font-size:12px; color:var(--text-muted); font-weight:bold;">OSE / ODER</span>
+        <div style="flex:1; height:1px; background:var(--border);"></div>
+      </div>
+      <div class="input-grp">
+        <label>Kodi i Dhomës / Raumcode</label>
+        <input type="text" id="room-code-input" placeholder="Psh. AB123" maxlength="5" style="text-transform: uppercase;">
+      </div>
+      <button class="btn btn-sec" id="join-room-btn">Bashkohu (Join Room)</button>
+    </div>
+
+    <div id="local-panel" style="display: none;">
+      <button class="btn" onclick="startLocalGame()">Luaj Lokalisht</button>
+    </div>
+
+    <button class="btn btn-sec" style="padding:8px; font-size:14px;" onclick="showInfoModal()">Rregullat &amp; Historia</button>
+
+    <div class="history-card">
+      <h3>Rreth lojës / Über das Spiel</h3>
+      <p>Cicmic (ose Cikmik) është një lojë tradicionale mjaft e njohur në trevat shqiptare, e ngjashme me lojërat e lashta të rreshtimit të tre guralecëve. Luhet me pasion si një sfidë e shpejtë inteligjence.</p>
+    </div>
+  </div>
+
+  <div id="game-container">
+    <div class="status-bar">
+      <div id="p1-display" style="color: var(--red);">P1: Pritet...</div>
+      <div class="turn-ind">
+        <span class="turn-dot" id="current-turn-dot"></span>
+        <span id="status-text">Radha: -</span>
+      </div>
+      <div id="p2-display" style="color: #fff; text-shadow: 0 0 2px #000;">P2: Pritet...</div>
+    </div>
+
+    <div id="board">
+      <div class="cell" data-idx="0"></div><div class="cell" data-idx="1"></div><div class="cell" data-idx="2"></div>
+      <div class="cell" data-idx="3"></div><div class="cell" data-idx="4"></div><div class="cell" data-idx="5"></div>
+      <div class="cell" data-idx="6"></div><div class="cell" data-idx="7"></div><div class="cell" data-idx="8"></div>
+    </div>
+
+    <div class="bottom-bar">
+      <button class="btn btn-sec" style="flex:1;" onclick="leaveGame()">Dil nga loja (Menu)</button>
+    </div>
+  </div>
+
+  <div class="rules-box" style="display:none;">
+    <h3>Rregullat e lojës / Regeln</h3>
+    <ol>
+      <li>Secili lojtar ka nga 3 gurë (të Kuq ose të Zi).</li>
+      <li><strong>Faza 1:</strong> Vendosja. Lojtarët vendosin me radhë gurët në kutitë e zbrazëta.</li>
+      <li><strong>Faza 2:</strong> Lëvizja. Pasi janë vendosur të gjithë gurët, lojtarët lëvizin me radhë një gur në një kuti fqinje të zbrazët (horizontalisht, vertikalisht ose diagonalisht).</li>
+      <li><strong>Fituesi:</strong> Lojtari i parë që rreshton 3 gurët e tij në vijë të drejtë (drejt ose diagonal).</li>
+    </ol>
+  </div>
+
+  <script>
+    var THEME_KEY = 'cicmic_theme';
+    var DEFAULT_THEME = 'smerald';
+    function applyTheme(t){
+      document.documentElement.setAttribute('data-theme',t);
+      try{localStorage.setItem(THEME_KEY,t);}catch(e){}
+      document.querySelectorAll('.theme-sw').forEach(function(s){
+        s.classList.toggle('sel', s.getAttribute('data-t')===t);
+      });
+    }
+    function initTheme(){
+      var saved; try{saved=localStorage.getItem(THEME_KEY);}catch(e){}
+      applyTheme(saved||DEFAULT_THEME);
+    }
+    try{initTheme();}catch(e){}
+
+    function buildInfoModal(){
+      if(document.getElementById('info-modal')) return;
+      var m=document.createElement('div'); m.id='info-modal'; m.className='info-modal';
+      var c=document.createElement('div'); c.className='info-card';
+      var x=document.createElement('button'); x.className='info-close'; x.textContent='✕ Mbyll · Schließen';
+      x.onclick=function(){ m.classList.remove('show'); };
+      c.appendChild(x);
+      ['.history-card','.rules-box'].forEach(function(sel){
+        var el=document.querySelector('#menu '+sel) || document.querySelector(sel);
+        if(el) {
+          var cln = el.cloneNode(true);
+          cln.style.display = 'block';
+          c.appendChild(cln);
+        }
+      });
+      m.appendChild(c); document.body.appendChild(m);
+      m.addEventListener('click', function(e){ if(e.target===m) m.classList.remove('show'); });
+    }
+    function showInfoModal(){
+      buildInfoModal();
+      document.getElementById('info-modal').classList.add('show');
+    }
+
+    // Variablat e Logjikës Lokale dhe Globale
+    var gameMode = 'online'; // 'local' ose 'online'
+    var boardState = [0,0,0, 0,0,0, 0,0,0]; // 0=bosh, 1=P1, 2=P2
+    var gamePhase = 'setup'; // 'setup' ose 'playing' ose 'ended'
+    var currentTurn = 1; // 1 ose 2
+    var selectedSrcIdx = null; // Për fazën e lëvizjes
+
+    function setMode(m) {
+      gameMode = m;
+      document.getElementById('tab-local').classList.toggle('active', m==='local');
+      document.getElementById('tab-online').classList.toggle('active', m==='online');
+      document.getElementById('local-panel').style.display = (m==='local') ? 'block' : 'none';
+      document.getElementById('online-panel').style.display = (m==='online') ? 'flex' : 'none';
+    }
+
+    // Gjetja e fqinjëve validë (Rrjeti 3x3 ku qendra 4 lidhet me të gjithë)
+    var adjList = {
+      0: [1, 3, 4],
+      1: [0, 2, 4],
+      2: [1, 5, 4],
+      3: [0, 6, 4],
+      4: [0, 1, 2, 3, 5, 6, 7, 8], // Qendra lidhet me çdo gjë
+      5: [2, 8, 4],
+      6: [3, 7, 4],
+      7: [6, 8, 4],
+      8: [5, 7, 4]
+    };
+
+    function checkWin(b, p) {
+      var lines = [
+        [0,1,2], [3,4,5], [6,7,8], // Horizontale
+        [0,3,6], [1,4,7], [2,5,8], // Vertikale
+        [0,4,8], [2,4,6]           // Diagonale
+      ];
+      return lines.some(function(l){
+        return b[l[0]]===p && b[l[1]]===p && b[l[2]]===p;
+      });
+    }
+
+    function countPieces(b, p) {
+      return b.filter(function(x){ return x===p; }).length;
+    }
+
+    // Renderimi i Pamjes së Tabelës
+    function renderBoard() {
+      var cells = document.querySelectorAll('.cell');
+      cells.forEach(function(cell){
+        var idx = parseInt(cell.getAttribute('data-idx'));
+        cell.innerHTML = '';
+        cell.classList.remove('src-sel');
+        
+        if (boardState[idx] !== 0) {
+          var piece = document.createElement('div');
+          piece.className = 'piece p' + boardState[idx];
+          if (selectedSrcIdx === idx) {
+            cell.classList.add('src-sel');
+          }
+          cell.appendChild(piece);
+        }
+      });
+
+      // Përditësimi i statusit vizual
+      var dot = document.getElementById('current-turn-dot');
+      dot.className = 'turn-dot ' + (currentTurn === 1 ? 'p1' : 'p2');
+      
+      if (gamePhase === 'ended') {
+        document.getElementById('status-text').textContent = 'Loja Përfundoi!';
+      } else {
+        document.getElementById('status-text').textContent = 'Radha: Lojtari ' + currentTurn;
+      }
+    }
+
+    // Klikimi mbi një qelizë (Kombinuar për Lokal & Online)
+    document.querySelectorAll('.cell').forEach(function(cell){
+      cell.addEventListener('click', function(){
+        var idx = parseInt(cell.getAttribute('data-idx'));
+        if (gameMode === 'local') {
+          handleLocalCellClick(idx);
+        } else if (gameMode === 'online') {
+          handleOnlineCellClick(idx);
+        }
+      });
+    });
+
+    // --- LOGJIKA LOKALE ---
+    function startLocalGame() {
+      boardState = [0,0,0, 0,0,0, 0,0,0];
+      gamePhase = 'setup';
+      currentTurn = 1;
+      selectedSrcIdx = null;
+      
+      document.getElementById('menu').style.display = 'none';
+      document.getElementById('game-container').style.display = 'block';
+      document.getElementById('p1-display').textContent = 'Lojtari 1 (Kuq)';
+      document.getElementById('p2-display').textContent = 'Lojtari 2 (Zi)';
+      renderBoard();
+    }
+
+    function handleLocalCellClick(idx) {
+      if (gamePhase === 'ended') return;
+
+      if (gamePhase === 'setup') {
+        if (boardState[idx] !== 0) return;
+        boardState[idx] = currentTurn;
+        
+        if (checkWin(boardState, currentTurn)) {
+          alert('Lojtari ' + currentTurn + ' fitoi lojën!');
+          gamePhase = 'ended';
+        } else {
+          if (countPieces(boardState, 1) === 3 && countPieces(boardState, 2) === 3) {
+            gamePhase = 'playing';
+          }
+          currentTurn = currentTurn === 1 ? 2 : 1;
+        }
+        renderBoard();
+      } else if (gamePhase === 'playing') {
+        if (selectedSrcIdx === null) {
+          if (boardState[idx] === currentTurn) {
+            selectedSrcIdx = idx;
+            renderBoard();
+          }
+        } else {
+          if (idx === selectedSrcIdx) {
+            selectedSrcIdx = null;
+            renderBoard();
+            return;
+          }
+          if (boardState[idx] === currentTurn) {
+            selectedSrcIdx = idx;
+            renderBoard();
+            return;
+          }
+          if (boardState[idx] === 0 && adjList[selectedSrcIdx].includes(idx)) {
+            boardState[idx] = currentTurn;
+            boardState[selectedSrcIdx] = 0;
+            selectedSrcIdx = null;
+
+            if (checkWin(boardState, currentTurn)) {
+              renderBoard();
+              alert('Lojtari ' + currentTurn + ' fitoi lojën!');
+              gamePhase = 'ended';
+              return;
+            }
+            currentTurn = currentTurn === 1 ? 2 : 1;
+            renderBoard();
+          }
+        }
+      }
+    }
+
+    function leaveGame() {
+      if (gameMode === 'online' && currentRoomCode) {
+        supabase.from('game_rooms').delete().eq('room_code', currentRoomCode);
+      }
+      document.getElementById('game-container').style.display = 'none';
+      document.getElementById('menu').style.display = 'flex';
+    }
+
+    // Inicializimi i pamjes në fillim
+    setMode('online');
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+    // 1. Supabase-Konfiguration
+    const supabaseUrl = 'https://rnaqaiysvzzmefdyjoql.supabase.co';
+    const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJuYXFhaXlzdnp6bWVmZHlqb3FsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIwMDU1NTAsImV4cCI6MjA5NzU4MTU1MH0.PiATJot2jQT54oGO-7CD5K7bKfQuR-W4Eo7IJdXpHzU
+
+'; // <-- Setze hier deinen anonymen Schlüssel ein!
+    const supabase = Supabase.createClient(supabaseUrl, supabaseKey);
+
+    let currentRoomCode = null;
+    let myPlayerNumber = null; // 1 = Ersteller (Rot), 2 = Beitretender (Schwarz)
+    let isUpdatingDatabase = false;
+
+    // 2. Online-Raum erstellen
+    async function createRoomOnline() {
+      const playerName = document.getElementById('player-name-input').value.trim() || 'Lojtari 1';
+      const roomCode = Math.random().toString(36).substring(2, 7).toUpperCase();
+
+      const { data, error } = await supabase
+        .from('game_rooms')
+        .insert([
+          {
+            room_code: roomCode,
+            player1_name: playerName,
+            board_state: [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            game_phase: 'setup',
+            current_turn: 1
+          }
+        ])
+        .select();
+
+      if (error) {
+        console.error("Fehler beim Erstellen des Raums:", error);
+        alert("Gabim gjatë krijimit të dhomës. Provoni përsëri.");
+        return;
+      }
+
+      currentRoomCode = roomCode;
+      myPlayerNumber = 1;
+
+      alert("Dhoma u krijua!\nKodi juaj: " + roomCode + "\nPrisni lojtarin e dytë...");
+      
+      document.getElementById('p1-display').textContent = playerName + " (P1)";
+      listenToRoomChanges(roomCode);
+    }
+
+    // 3. Online-Raum beitreten
+    async function joinRoomOnline() {
+      const playerName = document.getElementById('player-name-input').value.trim() || 'Lojtari 2';
+      const roomCodeInput = document.getElementById('room-code-input').value.trim().toUpperCase();
+
+      if (!roomCodeInput) {
+        alert("Ju lutem jepni kodin e dhomës!");
+        return;
+      }
+
+      const { data: rooms, error: fetchError } = await supabase
+        .from('game_rooms')
+        .select('*')
+        .eq('room_code', roomCodeInput);
+
+      if (fetchError || !rooms || rooms.length === 0) {
+        alert("Dhoma nuk u gjet!");
+        return;
+      }
+
+      const room = rooms[0];
+      if (room.player2_name) {
+        alert("Kjo dhomë është plot!");
+        return;
+      }
+
+      const { error: updateError } = await supabase
+        .from('game_rooms')
+        .update({ player2_name: playerName, game_phase: 'setup' })
+        .eq('room_code', roomCodeInput);
+
+      if (updateError) {
+        alert("Gabim gjatë bashkimit në dhomë!");
+        return;
+      }
+
+      currentRoomCode = roomCodeInput;
+      myPlayerNumber = 2;
+
+      document.getElementById('p2-display').textContent = playerName + " (P2)";
+      alert("U bashkuat me sukses! Loja po fillon.");
+      
+      listenToRoomChanges(roomCodeInput);
+    }
+
+    // 4. Datenbank-Updates an das Spiel übertragen
+    function listenToRoomChanges(roomCode) {
+      supabase
+        .channel('public:game_rooms')
+        .on('postgres_changes', { event: '*', schema: 'public', table: 'game_rooms', filter: `room_code=eq.${roomCode}` }, payload => {
+          if (!payload.new) return;
+          const updatedRoom = payload.new;
+
+          // Daten aus DB übernehmen
+          boardState = updatedRoom.board_state;
+          gamePhase = updatedRoom.game_phase;
+          currentTurn = updatedRoom.current_turn;
+
+          // Namen anzeigen
+          if (updatedRoom.player1_name) document.getElementById('p1-display').textContent = updatedRoom.player1_name;
+          if (updatedRoom.player2_name) document.getElementById('p2-display').textContent = updatedRoom.player2_name;
+
+          // Wechsel zum Spielfeld, wenn Spieler 2 da ist
+          if (document.getElementById('menu').style.display !== 'none') {
+            document.getElementById('menu').style.display = 'none';
+            document.getElementById('game-container').style.display = 'block';
+          }
+
+          renderBoard();
+        })
+        .subscribe();
+    }
+
+    // 5. Spielzug online verarbeiten
+    async function handleOnlineCellClick(idx) {
+      if (gamePhase === 'ended' || isUpdatingDatabase) return;
+      if (currentTurn !== myPlayerNumber) {
+        console.log("Nicht dein Zug!");
+        return;
+      }
+
+      let changed = false;
+
+      if (gamePhase === 'setup') {
+        if (boardState[idx] !== 0) return;
+        boardState[idx] = currentTurn;
+        changed = true;
+
+        if (checkWin(boardState, currentTurn)) {
+          gamePhase = 'ended';
+          alert('Urime! Ju fituat lojën!');
+        } else {
+          if (countPieces(boardState, 1) === 3 && countPieces(boardState, 2) === 3) {
+            gamePhase = 'playing';
+          }
+          currentTurn = currentTurn === 1 ? 2 : 1;
+        }
+      } else if (gamePhase === 'playing') {
+        if (selectedSrcIdx === null) {
+          if (boardState[idx] === currentTurn) {
+            selectedSrcIdx = idx;
+            renderBoard();
+          }
+        } else {
+          if (idx === selectedSrcIdx) {
+            selectedSrcIdx = null;
+            renderBoard();
+            return;
+          }
+          if (boardState[idx] === currentTurn) {
+            selectedSrcIdx = idx;
+            renderBoard();
+            return;
+          }
+          if (boardState[idx] === 0 && adjList[selectedSrcIdx].includes(idx)) {
+            boardState[idx] = currentTurn;
+            boardState[selectedSrcIdx] = 0;
+            selectedSrcIdx = null;
+            changed = true;
+
+            if (checkWin(boardState, currentTurn)) {
+              gamePhase = 'ended';
+              renderBoard();
+              alert('Urime! Ju fituat lojën!');
+            } else {
+              currentTurn = currentTurn === 1 ? 2 : 1;
+            }
+          }
+        }
+      }
+
+      if (changed) {
+        isUpdatingDatabase = true;
+        await supabase
+          .from('game_rooms')
+          .update({
+            board_state: boardState,
+            game_phase: gamePhase,
+            current_turn: currentTurn
+          })
+          .eq('room_code', currentRoomCode);
+        isUpdatingDatabase = false;
+      }
+    }
+
+    // Event Listener für die Buttons im Online-Menü hinterlegen
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById('create-room-btn').onclick = createRoomOnline;
+      document.getElementById('join-room-btn').onclick = joinRoomOnline;
+    });
+  </script>
+</body>
+</html>
