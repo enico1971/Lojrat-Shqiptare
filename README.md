@@ -1,2 +1,0 @@
-# Lojrat-Shqiptare
-Albanische Spiele
