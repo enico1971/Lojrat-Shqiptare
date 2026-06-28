@@ -1,0 +1,17 @@
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/kapucave.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/cicmic.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/gropat.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/manifest.json
+  Cache-Control: no-cache, no-store, must-revalidate
